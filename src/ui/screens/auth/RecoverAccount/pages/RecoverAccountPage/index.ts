@@ -1,0 +1,1 @@
+export { RecoverAccountPage } from './RecoverAccountPage';

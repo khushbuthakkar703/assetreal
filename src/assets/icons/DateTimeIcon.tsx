@@ -1,0 +1,73 @@
+export const DateTimeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (
+  props
+) => {
+  return (
+    <svg
+      width="14"
+      height="15"
+      viewBox="0 0 14 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <mask id="path-1-inside-1_0_1449" fill="white">
+        <rect
+          x="0.755859"
+          y="1.71814"
+          width="12.6902"
+          height="12.3119"
+          rx="1"
+        />
+      </mask>
+      <rect
+        x="0.755859"
+        y="1.71814"
+        width="12.6902"
+        height="12.3119"
+        rx="1"
+        stroke="#8082A4"
+        strokeWidth="3"
+        mask="url(#path-1-inside-1_0_1449)"
+      />
+      <rect
+        x="3.05966"
+        y="0.636809"
+        width="0.845162"
+        height="0.720883"
+        stroke="#8082A4"
+        strokeWidth="0.720883"
+      />
+      <rect
+        x="2.40536"
+        y="4.89755"
+        width="9.39094"
+        height="0.720883"
+        stroke="#8082A4"
+        strokeWidth="0.720883"
+      />
+      <rect
+        x="3.78232"
+        y="7.61996"
+        width="6.6371"
+        height="0.720883"
+        stroke="#8082A4"
+        strokeWidth="0.720883"
+      />
+      <rect
+        x="3.78232"
+        y="10.0826"
+        width="3.68026"
+        height="0.720883"
+        stroke="#8082A4"
+        strokeWidth="0.720883"
+      />
+      <rect
+        x="10.1573"
+        y="0.636809"
+        width="0.845162"
+        height="0.720883"
+        stroke="#8082A4"
+        strokeWidth="0.720883"
+      />
+    </svg>
+  );
+};
